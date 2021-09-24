@@ -1,0 +1,398 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+:root {
+  --blood: #cd3242;
+  --secColor: #2d3e50;
+}
+
+body {
+  direction: ltr;
+  text-align: left;
+  background: #fbfbfb;
+  font-family: 'Cairo', sans-serif;
+}
+
+.column {
+  display: inline-block;
+  width: 1.5px;
+  height: 40px;
+  background-color: #4e759e;
+  margin: 0 5px;
+}
+
+/* info nav */
+
+nav.nav-info {
+  background-color: var(--secColor);
+  padding: 5px 0;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .nav-content {
+    flex-direction: column;
+  }
+}
+
+.nav-content .translation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-content .translation .arabic {
+  color: var(--blood);
+  cursor: pointer;
+}
+
+.nav-content .translation .english {
+  color: #78ade6;
+  cursor: pointer;
+}
+
+.nav-content .list-inline {
+  margin-bottom: 0;
+}
+
+.nav-content .list-inline a {
+  padding: 0 3px;
+}
+
+.nav-content .list-inline a i {
+  font-size: 19px;
+}
+
+.nav-content .new-create {
+  color: #fff;
+  position: relative;
+}
+
+.nav-content .new-create::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.nav-content .enter-btn {
+  color: #dc9e35;
+}
+
+
+/* navbar  */
+nav.navbar {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 20%)
+}
+
+nav.navbar .navbar-brand span {
+  color: var(--blood);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav.navbar .sign-up {
+  text-decoration: none;
+  color: #5a6164;
+  font-weight: bold;
+  position: relative;
+}
+
+
+nav.navbar .sign-up::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--blood);
+  bottom: -5px;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: 300ms;
+}
+
+nav.navbar .sign-up:hover::after {
+  transform: scaleX(1);
+}
+
+nav.navbar .enter-btn {
+  background-color: var(--secColor);
+  color: rgb(221, 220, 220);
+  padding: 6px 17px;
+}
+
+nav.navbar .nav-item.active .nav-link {
+  color: var(--blood) !important;
+  position: relative;
+}
+
+nav.navbar .nav-item.active .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--blood);
+  bottom: -28px;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  nav.navbar .nav-item.active .nav-link::after {
+    bottom: 0;
+  }
+}
+
+nav.navbar .column {
+  margin: 0;
+  background-color: #e5e5e5
+}
+
+nav.navbar .donate-request {
+  background-color: #2d3e50;
+  width: 150px;
+  text-align: center;
+  border-radius: 11px;
+}
+
+nav.navbar .donate-request a {
+  color: #fff;
+  font-size: 18px;
+}
+
+
+/* breadcrumb */
+.my-breadcrumb {
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #eeeeee;
+}
+
+.my-breadcrumb ol {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0 !important;
+}
+
+.my-breadcrumb ol li:not(:last-child) a {
+  color: #c2c2c2;
+}
+
+.my-breadcrumb ol li:last-child a {
+  color: #908f93;
+}
+
+/* image section */
+.img-section {
+  width: 75%;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+}
+
+/* protection section */
+.protect-content {
+  margin-top: 30px;
+  background-color: var(--secColor);
+  padding: 20px 15px;
+}
+
+.protect-content h2 {
+  color: #c5c9ce;
+}
+
+.protect-content i {
+  color: #c5c9ce;
+  font-size: 50px;
+}
+
+.desc-content {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 2px solid #eeeeee;
+}
+
+.desc-content p {
+  padding: 15px;
+  line-height: 1.9;
+  color: #929292;
+  font-size: 18px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .desc-content p {
+    text-align: justify;
+  }
+}
+
+
+/* nice carousel */
+
+
+.articles-title {
+  color: var(--blood);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.articles-title::after {
+  position: absolute;
+  content: "";
+  width: 190px;
+  height: 3px;
+  background-color: var(--blood);
+  bottom: -10px;
+  left: 0;
+}
+
+.nice-carousel .card {
+  border: none !important;
+  position: relative;
+}
+
+.nice-carousel .card i {
+  position: absolute;
+  background-color: var(--secColor);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.nice-carousel .card .card-title {
+  color: var(--blood);
+}
+
+.nice-carousel .card .btn-details {
+  background-color: var(--secColor);
+  color: #fff;
+  padding: 5px 30px;
+}
+
+.owl-nav {
+  position: absolute;
+  top: -102px;
+  right: 0;
+  font-size: 45px;
+  color: #a4abae;
+  ;
+}
+
+.owl-nav .owl-prev {
+  margin-right: 10px;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #1a1f25;
+  padding: 50px 0;
+}
+
+.footer .footer-title {
+  color: var(--blood);
+  font-weight: bold;
+}
+
+.footer h5 {
+  color: #fff;
+}
+
+.footer .footer-desc {
+  color: rgb(214, 214, 214);
+  line-height: 1.8;
+}
+
+.footer .footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer .footer-list li {
+  padding: 10px 0;
+}
+
+.footer .footer-list li a {
+  color: rgb(214, 214, 214);
+  transition: 250ms;
+}
+
+.footer .footer-list li.active a {
+  color: var(--blood);
+}
+
+
+.footer .footer-list li a:hover {
+  color: var(--blood);
+}
+
+.footer .available {
+  color: var(--blood);
+}
+
+.footer .available-sec {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer of the footer */
+
+.footer-footer {
+  background-color: #14171c;
+  padding: 15px 0;
+}
+
+@media (max-width: 767px) {
+  .footer-footer .container {
+    flex-direction: column;
+  }
+}
+
+.footer-footer ul {
+  margin-bottom: 0 !important;
+  display: inline-block !important;
+}
+
+.footer-footer ul li a {
+  color: #fff;
+  font-size: 25px;
+  padding: 0 4px;
+}
+
+.footer-footer .copyright {
+  color: rgb(214, 214, 214);
+}
+
+.footer-footer .copyright a {
+  color: var(--blood);
+  text-decoration: none;
+}

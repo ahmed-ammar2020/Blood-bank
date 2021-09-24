@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="assets/imgs/Icon.png" />
+    <link rel="stylesheet" href="assets/main-en.css" />
+    <title>Blood bank</title>
+  </head>
+  <body>
+    <!-- Back to top button -->
+    <a id="button"><i class="fas fa-arrow-up"></i></a>
+    <!-- info nav -->
+    <nav class="nav-info">
+      <div class="container">
+        <div class="nav-content">
+          <div class="translation">
+            <span><a href="index-ar.html" class="arabic">عربى</a></span>
+            <span class="column"></span>
+            <span><a href="index-en.html" class="english">EN</a></span>
+          </div>
+          <ul class="list-inline my-2 my-md-0">
+            <li class="list-inline-item">
+              <a href="#" class="text-white"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+          <div class="info d-flex justify-content-center align-items-center">
+            <div class="text-white">
+              <i class="far fa-envelope text-white mr-1"></i> name@name.com
+            </div>
+            <span class="column mx-2"></span>
+            <div class="text-white">
+              <i class="fas fa-phone-volume text-white mr-1"></i> 96645451545+
+            </div>
+          </div>
+          <!-- <div class="info d-flex justify-content-center align-items-center">
+            <span class="welcome">welcome</span>
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <a href="#">Ahmed Ammar</a>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-home mr-2"></i>Main</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="far fa-user mr-2"></i>My info</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="far fa-bell mr-2"></i>Settings</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="far fa-heart mr-2"></i>Favorites</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="far fa-comments mr-2"></i>Report</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-phone-alt mr-2"></i>Contact us</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"
+                  ><i class="fas fa-sign-out-alt ml-2"></i>تسجيل الخروج</a
+                >
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-center align-items-center"
+          href="index-ar.html"
+        >
+          <img
+            src="assets/imgs/Icon.png"
+            width="70"
+            height="70"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          <span class="ml-2">Blood bank</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">main</a>
+            </li>
+            <span class="column d-none d-md-inline"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-the-bank">About the bank</a>
+            </li>
+            <span class="column d-none d-md-inline"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="#articles">Articles</a>
+            </li>
+            <span class="column d-none d-md-inline"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="#donate">Donate</a>
+            </li>
+            <span class="column d-none d-md-inline"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">About us</a>
+            </li>
+            <span class="column d-none d-md-inline"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us" 0>Contact us</a>
+            </li>
+          </ul>
+          <div class="my-2 my-lg-0">
+            <a href="new_account-en.html" class="sign-up mr-4">A new account</a>
+            <a class="btn enter-btn" href="#">Sign in</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- better health -->
+    <section class="better-health">
+      <img src="assets/imgs/header1-ltr.jpg" class="img-fluid" alt="" />
+      <div class="container">
+        <div class="better-content mt-3 mt-md-0">
+          <h2 class="better-health-title">
+            Blood bank moving forward for better health
+          </h2>
+          <p class="better-health-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+            beatae nobis corrupti repellendus iure quasi.
+          </p>
+          <button class="btn btn-more">more</button>
+        </div>
+      </div>
+    </section>
+    <!-- better health 2 -->
+    <section class="blood mt-5 mt-md-0" id="about-the-bank">
+      <img src="assets/imgs/about2-ltr.png" alt="" />
+      <div class="container">
+        <div class="blood-content mt-3 mt-md-0">
+          <p class="blood-desc">
+            <span>Blood bank</span>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
+            autem impedit totam, esse soluta deleniti repellendus harum quasi
+            consectetur commodi? autem impedit totam, esse soluta deleniti
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- nice carousel -->
+    <div
+      class="nice-carousel-container container pt-4 position-relative"
+      id="articles"
+    >
+      <h3 class="articles-title">Articles</h3>
+      <section class="nice-carousel mt-5">
+        <div class="owl-carousel">
+          <div class="card">
+            <img
+              src="assets/imgs/p2.jpg"
+              class="card-img-top img-fluid img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">protection from diseases</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam esse quidem beatae!
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-details">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/p1.jpg"
+              class="card-img-top img-fluid img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">protection from diseases</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam esse quidem beatae!
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-details">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/p2.jpg"
+              class="card-img-top img-fluid img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">protection from diseases</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam esse quidem beatae!
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-details">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/p1.jpg"
+              class="card-img-top img-fluid img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">protection from diseases</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam esse quidem beatae!
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-details">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/p2.jpg"
+              class="card-img-top img-fluid img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">protection from diseases</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam esse quidem beatae!
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-details">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/p1.jpg"
+              class="card-img-top img-fluid img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">protection from diseases</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam esse quidem beatae!
+              </p>
+              <div class="text-center">
+                <a href="#" class="btn btn-details">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- donations section -->
+    <section class="donate" id="donate">
+      <h2 class="donate-title">Donations</h2>
+      <div class="donate-bg-color">
+        <div class="container">
+          <form class="row">
+            <div class="col-12 col-md-5">
+              <select
+                class="custom-select my-1 mr-sm-2"
+                id="inlineFormCustomSelectPref"
+              >
+                <option selected class="text-muted">
+                  Choose your blood type
+                </option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-5">
+              <select
+                class="custom-select my-1 mr-sm-2"
+                id="inlineFormCustomSelectPref"
+              >
+                <option selected class="text-muted">Choose a city</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-2">
+              <div class="search-icon mr-2 text-center">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+          </form>
+          <div class="donate-persons mt-4">
+            <div class="donate-person mt-4">
+              <div class="row py-3 py-md-0" style="height: 100%">
+                <div
+                  class="col-12 col-md-2 d-flex justify-content-center align-items-center"
+                >
+                  <div class="blood-type mr-2">A+</div>
+                </div>
+                <div class="col-12 col-md-7 d-flex align-items-center">
+                  <div class="donater-details">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td style="width: 30px">Name:</td>
+                        <td>Ahmed Mohammed Ammar</td>
+                      </tr>
+                      <tr>
+                        <td>Hospital:</td>
+                        <td>Al-Qasr Al-Ainy</td>
+                      </tr>
+                      <tr>
+                        <td>city:</td>
+                        <td>Mansoura</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-3 d-flex justify-content-center align-items-center"
+                >
+                  <div class="btn-details">
+                    <a href="#" class="btn btn-dark">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="donate-person mt-4">
+              <div class="row py-3 py-md-0" style="height: 100%">
+                <div
+                  class="col-12 col-md-2 d-flex justify-content-center align-items-center"
+                >
+                  <div class="blood-type mr-2">O+</div>
+                </div>
+                <div class="col-12 col-md-7 d-flex align-items-center">
+                  <div class="donater-details">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td style="width: 30px">Name:</td>
+                        <td>Ahmed Mohammed Ammar</td>
+                      </tr>
+                      <tr>
+                        <td>Hospital:</td>
+                        <td>Al-Qasr Al-Ainy</td>
+                      </tr>
+                      <tr>
+                        <td>city:</td>
+                        <td>Mansoura</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-3 d-flex justify-content-center align-items-center"
+                >
+                  <div class="btn-details">
+                    <a href="#" class="btn btn-dark">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="donate-person mt-4">
+              <div class="row py-3 py-md-0" style="height: 100%">
+                <div
+                  class="col-12 col-md-2 d-flex justify-content-center align-items-center"
+                >
+                  <div class="blood-type mr-2">AB+</div>
+                </div>
+                <div class="col-12 col-md-7 d-flex align-items-center">
+                  <div class="donater-details">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td style="width: 30px">Name:</td>
+                        <td>Ahmed Mohammed Ammar</td>
+                      </tr>
+                      <tr>
+                        <td>Hospital:</td>
+                        <td>Al-Qasr Al-Ainy</td>
+                      </tr>
+                      <tr>
+                        <td>city:</td>
+                        <td>Mansoura</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-3 d-flex justify-content-center align-items-center"
+                >
+                  <div class="btn-details">
+                    <a href="#" class="btn btn-dark">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="donate-person mt-4">
+              <div class="row py-3 py-md-0" style="height: 100%">
+                <div
+                  class="col-12 col-md-2 d-flex justify-content-center align-items-center"
+                >
+                  <div class="blood-type mr-2">B+</div>
+                </div>
+                <div class="col-12 col-md-7 d-flex align-items-center">
+                  <div class="donater-details">
+                    <table class="table table-borderless table-sm">
+                      <tr>
+                        <td style="width: 30px">Name:</td>
+                        <td>Ahmed Mohammed Ammar</td>
+                      </tr>
+                      <tr>
+                        <td>Hospital:</td>
+                        <td>Al-Qasr Al-Ainy</td>
+                      </tr>
+                      <tr>
+                        <td>city:</td>
+                        <td>Mansoura</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-3 d-flex justify-content-center align-items-center"
+                >
+                  <div class="btn-details">
+                    <a href="#" class="btn btn-dark">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact us -->
+    <section class="contact-us" id="contact-us">
+      <div class="container">
+        <div class="contact-content">
+          <h2>Call us</h2>
+          <p class="contact-desc mt-5">
+            You can contact us to inquire about information and you will be
+            answered
+          </p>
+          <div class="whats">
+            <span>+002&nbsp;8451321856</span>
+            <img src="assets/imgs/whats.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+    <section class="about-us">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <div class="about-us-content">
+              <h2 class="about-us-title">Blood bank app</h2>
+              <p class="about-us-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                expedita minus deleniti, non nulla molestias?
+              </p>
+              <h3>available on</h3>
+              <div class="row">
+                <div class="col-6">
+                  <a href="#"
+                    ><img src="assets/imgs/google.png" class="img-fluid" alt=""
+                  /></a>
+                </div>
+                <div class="col-6">
+                  <a href="#"
+                    ><img src="assets/imgs/ios.png" class="img-fluid" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-5 mt-md-0">
+            <img src="assets/imgs/App.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="media d-flex align-items-center">
+              <img src="assets/imgs/Icon.png" class="img-fluid" alt="..." />
+              <div class="media-body">
+                <h3 class="mt-0 ml-2 footer-title">Blood bank</h3>
+              </div>
+            </div>
+            <h5 class="my-3">Blood bank</h5>
+            <p class="footer-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+              autem quia debitis illum deleniti aperiam quibusdam natus
+              voluptatibus animi distinctio! Eligendi commodi aliquid nam
+              numquam?
+            </p>
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex justify-content-center my-5 my-md-0 text-center"
+          >
+            <ul class="footer-list">
+              <li class="active">
+                <a href="#">Main</a>
+              </li>
+              <li>
+                <a href="#">About the bank</a>
+              </li>
+              <li>
+                <a href="#">Articles</a>
+              </li>
+              <li>
+                <a href="#">Donate</a>
+              </li>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Call us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 available-sec">
+            <h5 class="available">available on</h5>
+            <div class="my-3 my-md-0">
+              <a href="#"><img src="assets/imgs/google1.png" alt="" /></a>
+            </div>
+            <div>
+              <a href="#"><img src="assets/imgs/ios1.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer of the footer -->
+    <section class="footer-footer">
+      <div class="container d-flex align-items-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="copyright mx-auto">
+          All right reserved to <a href="#">Blood bank</a>&nbsp;&copy;2021
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"
+      integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"
+      integrity="sha512-LZ6YBzwuQvIG41twjliX3HUVeAd+ErnJ0UsqRnkI4firX2l71jxbKJoax/hu7XY2tiyLl0YA2kcnz/XEW+9O3g=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="assets/main-ar.js"></script>
+  </body>
+</html>
